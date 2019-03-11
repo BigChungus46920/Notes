@@ -12,7 +12,6 @@ public class WordRunner
  {
   Word 0 = new Word("cat");
   Word 1 = new Word("cat");
-  System.out.println( x.compareTo(y) );
   Word 2 = new Word("cat");
   Word 3 = new Word("cat");
   Word 4 = new Word("cat");
