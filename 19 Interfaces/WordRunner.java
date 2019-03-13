@@ -4,12 +4,18 @@
 //comparable example one
 
 import static java.lang.System.*;
+<<<<<<< HEAD
 import java.util.*;
+=======
+import static java.util.ArrayList;
+import static java.util.Collections;
+>>>>>>> upstream/master
 
 public class WordRunner
 {
  public static void main ( String[] args )
  {
+<<<<<<< HEAD
   Word 0 = new Word("cat");
   Word 1 = new Word("cat");
   Word 2 = new Word("cat");
@@ -27,6 +33,15 @@ public class WordRunner
   Collections.sort(test);
   System.out.println(test);
   //make a list of Word
+=======
+  Word x = new Word("cat");
+  Word y = new Word("catcat");
+  System.out.println( x.compareTo(y) );
+  
+  //make a list of Word
+  List<Word> list = new ArrayList<Word>();
+  
+>>>>>>> upstream/master
   //call Collections.sort() and sort the list
   //print the list
   }
