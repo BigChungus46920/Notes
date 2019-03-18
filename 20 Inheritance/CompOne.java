@@ -4,11 +4,21 @@
 //composition example
 
 import static java.lang.System.*;
-
+public class CompOne
+{
+ public static void main ( String[] args )
+ {
+  Word one = new Word("hello");
+  Word two = new Word("high");
+  out.println(one.compareTo(two));
+  out.println(two.compareTo(one));
+  out.println(new Word("high").compareTo(two));     
+ }
+}
 //Word is not a String, but it has a String 
 class Word implements Comparable
 {
-   private String word;  		//Word has a String
+   private String word;    //Word has a String
 
    public Word(String w) 
    { 
@@ -26,18 +36,7 @@ class Word implements Comparable
    }
 
    public String toString() { 
-   	return word; 
+    return word; 
    }
 }
 
-public class CompOne
-{
-	public static void main ( String[] args )
-	{
-		Word one = new Word("hello");
-		Word two = new Word("high");
-		out.println(one.compareTo(two));
-		out.println(two.compareTo(one));
-		out.println(new Word("high").compareTo(two));					
-	}
-}

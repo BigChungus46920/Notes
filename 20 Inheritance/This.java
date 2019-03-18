@@ -4,27 +4,6 @@
 //inheritance super this example
 
 import static java.lang.System.*;
-
-class Monster
-{
-	private String myName;
-
-	public Monster()
-	{
-		this("Monster");  //calls method Monster(name)
-	}
-
-	public Monster( String name )
-	{
-		myName = name;
-	}
-
-	public String toString()
-	{
-		return myName + " ";
-	}
-}
-
 public class This
 {
   public static void main( String[] args )
@@ -37,3 +16,24 @@ public class This
      out.println(thisOne);     
   }
 }
+
+class Monster
+{
+ private String myName;
+
+ public Monster()
+ {
+  this("Monster");  //calls method Monster(name)
+ }
+
+ public Monster( String name )
+ {
+  myName = name;
+ }
+
+ public String toString()
+ {
+  return myName + " ";
+ }
+}
+
