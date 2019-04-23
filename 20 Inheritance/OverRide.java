@@ -71,7 +71,11 @@ class Ghost extends Monster
    public void overRide( )
    {
       System.out.println("overRide in Ghost");
+<<<<<<< HEAD
         ///attempting to use incompatible return type
+=======
+      //return 0;  ///attempting to use incompatible return type
+>>>>>>> upstream/master
    }
 
 

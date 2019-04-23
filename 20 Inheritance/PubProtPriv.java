@@ -17,6 +17,10 @@ class PubProtPriv
   witch.showPrivate();
  }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 class Monster
 {
  private String myName;    // inherited, but not accessible in sub class
@@ -53,7 +57,12 @@ class Witch extends Monster
 
  public Witch( String name, int age )
  {
+<<<<<<< HEAD
   super(name,age);
+=======
+  //what code should be here
+    super(name, age);
+>>>>>>> upstream/master
  }
 
  public void showPrivate()
@@ -72,3 +81,7 @@ class Witch extends Monster
  }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master

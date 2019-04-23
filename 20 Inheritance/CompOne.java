@@ -4,6 +4,11 @@
 //composition example
 
 import static java.lang.System.*;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> upstream/master
 public class CompOne
 {
  public static void main ( String[] args )
@@ -15,6 +20,10 @@ public class CompOne
   out.println(new Word("high").compareTo(two));     
  }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 //Word is not a String, but it has a String 
 class Word implements Comparable
 {

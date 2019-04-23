@@ -11,6 +11,17 @@ public class InheritOne
   A one = new A();
     B two = new B();
 
+<<<<<<< HEAD
+=======
+public class InheritOne
+{
+  public static void main ( String[] args )
+  {
+  //test code in the main method
+  A one = new A();
+    B two = new B();
+
+>>>>>>> upstream/master
   out.println(one);
   one.setX(11);
   out.println(one.getX());
@@ -18,6 +29,7 @@ public class InheritOne
   
   out.println(two);    
   two.setX(24);
+<<<<<<< HEAD
   out.println(two.getX());  
   
   A three = new A();
@@ -27,6 +39,17 @@ public class InheritOne
   
   }
 }
+=======
+  out.println(two.getX()); 
+  
+  A three = new A();
+  three = one;
+  System.out.println( one.equals(three) );
+  
+  }
+}
+
+>>>>>>> upstream/master
 class A
 {
    private int x;

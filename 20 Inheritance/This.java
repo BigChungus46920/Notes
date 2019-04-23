@@ -4,6 +4,10 @@
 //inheritance super this example
 
 import static java.lang.System.*;
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 public class This
 {
   public static void main( String[] args )

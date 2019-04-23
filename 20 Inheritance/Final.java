@@ -4,6 +4,10 @@
 //inheritance method override example
 
 import static java.lang.System.*;
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 public class Final
 {
   public static void main ( String[] args )
@@ -17,6 +21,10 @@ public class Final
      witch.overRide();
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 class Monster
 {
  private String myName;    // inherited, but not accessible in sub class
@@ -47,12 +55,20 @@ class Witch extends Monster
  }
 
  //this will not compile
+<<<<<<< HEAD
  /*
+=======
+ 
+>>>>>>> upstream/master
  public void overRide( )
  {
   System.out.println("overRide in Witch\n");
  }
+<<<<<<< HEAD
  */
+=======
+
+>>>>>>> upstream/master
  
 
  public String toString()

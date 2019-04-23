@@ -20,6 +20,9 @@ public class InheritTwo
      sasquatch.yell();
      
      //instantiate Sasquatch
+     Sasquatch billy = new Sasquatch();
+     System.out.println(billy.getHasFluffy());
+     System.out.println(billy);
      
      
   }
@@ -53,6 +56,7 @@ class Witch extends Monster
  
 }
 
+<<<<<<< HEAD
 class Sasquatch extends Monster{
   public Sasquatch(String name){
     super(name);
@@ -61,10 +65,27 @@ class Sasquatch extends Monster{
   public void yell(){
     System.out.println("WOW LOUD YELL");
   }
+=======
+//make a new type of Monster - Sasquatch 
+
+class Sasquatch extends Monster{
+     private boolean hasFluffy;
+     
+     public Sasquatch(){
+          hasFluffy = true;
+     }
+     
+     public boolean getHasFluffy(){
+          return hasFluffy;
+     }
+>>>>>>> upstream/master
 }
 
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> upstream/master
